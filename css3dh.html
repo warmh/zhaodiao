@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css 3动画练手</title>
+	<meta name="viewport" content="width=device-width,minimum-scale=0.5,maximum-scale=1.0,initial-scale=0.5,user-scalable=no" />
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/css3dh.css">
+	<style>
+	.main{width:640px; height:1007px; background:url(img/bk.jpg) 0 0 no-repeat;margin:0 auto; position:relative; overflow:hidden;}
+	.nav{width:640px; height:80px; background:url(img/nav.jpg) 0 0 no-repeat; position:absolute; bottom:0px; left:0px; z-index:100;}
+	.bottom{width: 640px; height:361px; position:absolute; bottom:0px; left:0; background:url(img/bottom01.jpg) center 0px no-repeat; -webkit-animation:bot 1s linear 1;/* animation-fill-mode:forwards ;*/}
+	@-webkit-keyframes bot{
+		from{bottom:-281px;}
+		to{bottom:0px;}
+	}
+	.bot-left{width:170px; height:360px; background:url(img/bot-left.png) 0 0 no-repeat; position:absolute; top:46px; left:17px;}
+	.bot-right{width:170px; height:360px; background:url(img/bot-right.png) 0 0 no-repeat; position:absolute; top:45px; right:13px;}
+	.top{width:640px; height:609px; background:url(img/top01.jpg) center bottom no-repeat; position:absolute; top:0; left:0; -webkit-animation:tp 1s linear 1;}
+	@-webkit-keyframes tp{
+		from{top:-609px;}
+		to{top:0px;}
+	}
+	.top-left{width:99px; height:521px; background:url(img/top-left.png) 0px 0px no-repeat; position:absolute; top:-3px; left:71px;}
+	.top-right{width:99px; height:521px; background:url(img/top-right.png) 0px 0px no-repeat; position:absolute; top:-3px; right:71px;}
+	.title{width:630px; height:248px; position:absolute; top:36px; left:10px;  -webkit-animation:ti 2s linear 1;}
+	@-webkit-keyframes ti{
+		0%{opacity:0; -webkit-transform:scale(0.1);}
+		50%{opacity:0; -webkit-transform:scale(0.1);}
+		51%{opacity:1; -webkit-transform:scale(0.1);}
+		100%{opacity:1; -webkit-transform:scale(1);}
+	}
+	.title1{width:324px; height:216px; background:url(img/t1.png) 0px 0px no-repeat; position:absolute; top: 0px; left:0px;}
+	.title3{width:320px; height:203px; background:url(img/t3.png) 0px 0px no-repeat; position:absolute; top: 0px; right:0px;}
+	.title2{width:176px; height:174px; background:url(img/t2.png) 0px 0px no-repeat; position:absolute; top: 72px; left:178px;}
+	.yan{width:68px; height:68px; background:url(img/t4.png) 0px 0px no-repeat; position:absolute; top:91px; left:355px;}
+	.con1{width:464px; height:44px; background:url(img/con01.png) 0px 0px no-repeat; position:absolute; left:91px; top:312px; opacity:0;
+		-webkit-animation:con1 2.5s 1s linear 1 forwards;
+	}
+	@-webkit-keyframes con1{
+		0%{opacity:0;}
+		50%{opacity:0;}
+		51%{opacity:0; -webkit-transform:translateZ(-200);}
+		100%{opacity:1; -webkit-transform:translateZ(0);}
+	}
+	.con2{width:640px; color:#005FAF; text-align:center; font-size:19.5px; font-weight:bold; position:absolute; top:615px; left:0px; opacity:0;
+		-webkit-animation:con2 2s linear 1 forwards;
+	}
+	@-webkit-keyframes con2{
+		0%{opacity:0;}
+		50%{opacity:0;}
+		51%{opacity:1; left:-523px;}
+		65%{opacity:1;left:100px;}
+		85%{opacity:1;left:-30px;}
+		100%{opacity:1;left:0px;}
+	}
+	</style>
+</head>
+<body>
+	<div id="maincon" class="main">
+		<div class="top">
+			<div class="top-left">
+			</div>
+			<div class="top-right">
+			</div>
+		</div>
+		<div class="title">
+			<div class="title1"></div>
+			<div class="title3"></div>
+			<div class="title2"></div>
+			<div class="yan"></div>
+		</div>
+		<div class="con1"></div>
+		<div class="con2">是型男还是萌妹？选择卡片开始制作吧！</div>
+		<div class="bottom">
+			<div class="bot-left">
+			</div>
+			<div class="bot-right">
+			</div>
+		</div>
+		<div class="nav"></div>
+	</div>
+</body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/ort.js"></script>
+
+</html>

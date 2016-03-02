@@ -1,0 +1,25 @@
+/* .main{width:640px; height:1007px; background:url(../img/bk.jpg) 0 0 no-repeat;margin:0 auto; position:relative; overflow:hidden;}
+.nav{width:640px; height:80px; background:url(../img/nav.jpg) 0 0 no-repeat; position:absolute; bottom:0px; left:0px; z-index:100;}
+.bottom{width: 640px; height:361px; position:absolute; bottom:0; left:0; background:url(../img/bottom01.jpg) center 0px no-repeat;-webkit-animation:bot 5s linear infinite;}
+.bottom:hover{ }
+@-webkit-keyframes bot{
+	form{-webkit-transform:translateY(-281px);}
+	to{-webkit-transform:translateY(0px);}
+}
+.bot-left{width:170px; height:360px; background:url(../img/bot-left.png) 0 0 no-repeat; position:absolute; top:46px; left:17px;}
+.bot-right{width:170px; height:360px; background:url(../img/bot-right.png) 0 0 no-repeat; position:absolute; top:45px; right:13px;}
+.top{width:640px; height:609px; background:url(../img/top01.jpg) center bottom no-repeat; position:absolute; top:0; left:0;}
+.top-left{width:99px; height:521px; background:url(../img/top-left.png) 0px 0px no-repeat; position:absolute; top:-3px; left:71px;}
+.top-right{width:99px; height:521px; background:url(../img/top-right.png) 0px 0px no-repeat; position:absolute; top:-3px; right:71px;}
+.title{width:630px; height:248px; position:absolute; top:36px; left:10px;}
+.title1{width:324px; height:216px; background:url(../img/t1.png) 0px 0px no-repeat; position:absolute; top: 0px; left:0px;}
+.title3{width:320px; height:203px; background:url(../img/t3.png) 0px 0px no-repeat; position:absolute; top: 0px; right:0px;}
+.title2{width:176px; height:174px; background:url(../img/t2.png) 0px 0px no-repeat; position:absolute; top: 72px; left:178px;}
+.yan{width:68px; height:68px; background:url(../img/t4.png) 0px 0px no-repeat; position:absolute; top:91px; left:355px;}
+.con1{width:464px; height:44px; background:url(../img/con01.png) 0px 0px no-repeat; position:absolute; left:91px; top:312px;}
+.con2{width:640px; color:#005FAF; text-align:center; font-size:19.5px; font-weight:bold; position:absolute; top:615px; left:0px;}
+
+
+ */
+
+
